@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.HeroBoyukDiv {
+    width: 90%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 95px;
+
+    .img1 {
+        width: 1280px;
+        height: 700px;
+    }
+}
+
+.IlkDiv {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 26px;
+    margin-top: 30px;
+    margin-left: 45px;
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        width: 700px;
+        text-align: start;
+    }
+
+    .HeroBtn {
+        width: 150px;
+        height: 50px;
+        width: 100px;
+        background-color: #000000;
+        color: white;
+        font-size: 18px;
+        border-radius: 8px;
+        border-style: none;
+    }
+}
+
+.IkinciDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 27px;
+}
+
+.HeroH2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+
+.AsagiDivcik {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 28px;
+    margin-right: 65px;
+}
+
+.AsagiSolDiv {
+    margin-top: 10px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.KicikSekil {
+    width: 320px;
+    height: 320px;
+}
+
+.KicikH3 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.KicikP {
+    font-size: 22px;
+    font-weight: 400;
+    width: 350px;
+    color: #828282;
+}
+
+.KicikP3 {
+    font-size: 22px;
+    font-weight: 400;
+    width: 300px;
+    color: #828282;
+}
